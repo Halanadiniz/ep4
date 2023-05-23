@@ -15,15 +15,15 @@ body{ /*informaçao do body: mudança de cor e separaçao das gardes*/
     max-height: 75%;
 }
 .secundario{ /*informaçao do esquerdo: deixa no centro*/
-grid-area: secu;
-text-align: center;
+    grid-area: secu;
+    text-align: center;
 }
 .principal{ /*informaçao do meio: deixa no centro*/
-grid-area: prin;
-text-align: center;
+    grid-area: prin;
+    text-align: center;
 } 
 .rodape{ /*innformaçao do footer: deixa no centro*/
-grid-area: roda; 
+    grid-area: roda; 
     text-align: center;
 }
 .cabecalho, .secundario, .rodape, .principal{ /*fundo, ele arruma todas as grades*/
