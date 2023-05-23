@@ -1,4 +1,4 @@
-body{
+body{ /*informaçao do body: mudança de cor e separaçao das gardes*/
     background-color: rgb(138, 23, 17);
     grid-gap: 20px; color: rgb(255, 255, 255);
     display: grid;
@@ -7,25 +7,25 @@ body{
     "secu prin prin"
     "roda roda roda";
 }
-.logo{
+.logo{ /*informaçao da logo: deixar ela redonda*/
     border-radius: 50%;
 }
-.cabecalho{
+.cabecalho{ /*informaçao do hearde: deixa o header fixo*/
     grid-area: cabe;
     max-height: 75%;
 }
-.secundario{ 
+.secundario{ /*informaçao do esquerdo: deixa no centro*/
 grid-area: secu;
 text-align: center;
 }
-.principal{ 
+.principal{ /*informaçao do meio: deixa no centro*/
 grid-area: prin;
 text-align: center;
 } 
-.rodape{
+.rodape{ /*innformaçao do footer: deixa no centro*/
 grid-area: roda; 
     text-align: center;
 }
-.cabecalho, .secundario, .rodape, .principal{
+.cabecalho, .secundario, .rodape, .principal{ /*fundo, ele arruma todas as grades*/
     background-color: rgb(58, 62, 61);
 }
